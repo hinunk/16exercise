@@ -1,0 +1,12 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.edit > ul {
+    list-style: none;
+    padding-left: 0;
+}
+.content > pre {
+    font-size: 20px;
+}
