@@ -2,11 +2,43 @@
 .container {
     display: flex;
     justify-content: center;
+
 }
 .edit > ul {
     list-style: none;
     padding-left: 0;
 }
+.edit > ul > li {
+   
+}
 .content > pre {
     font-size: 20px;
+}
+@media (min-width: 400px) {
+    .container {
+        display: block;
+         
+    }
+    .edit {
+        display: block;
+    }        
+    .content {
+        display:  block;
+        position: relative;
+    }
+}
+@media (min-width: 900px) {
+    
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.edit > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content > pre {
+    margin-left: 20px;
 }
