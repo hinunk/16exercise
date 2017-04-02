@@ -14,7 +14,7 @@
 .content > pre {
     font-size: 20px;
 }
-@media (min-width: 400px) {
+@media (min-width: 350px) {
     .container {
         display: block;
          
